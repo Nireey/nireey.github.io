@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niraj Adhikari - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://nireey.github.io\css\styles.css">
+    <link rel="stylesheet" href="https://nireey.github.io/css/styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -20,38 +22,62 @@
         </ul>
     </nav>
 
-    <section id="home">
-        <div class="home-content">
-            <img src="https://nireey.github.io\images\profile.jpg" alt="Niraj Adhikari" class="profile-img" width=300
-                height=300>
-            <h1 class="title">Niraj Adhikari</h1>
-            <p class="subtitle">Civil Engineer & Data Enthusiast</p>
-        </div>
-    </section>
+    <!-- Home and About Sections -->
+    <div class="split-section">
+        <!-- Left Section (Home) -->
+        <section id="home" class="left-section">
+            <div class="home-content">
+                <img src="https://nireey.github.io/images/profile.jpg" alt="Niraj Adhikari" class="profile-img"
+                    width=300 height=300>
+                <h1 class="title">Niraj Adhikari</h1>
+                <p class="subtitle">Civil Engineer & Data Enthusiast</p>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <p>Hi, I'm Niraj Adhikari, a Civil Engineer with a passion for data analysis and smart mobility solutions. I
-                enjoy solving complex problems and leveraging data to improve transportation systems.</p>
-            <p>In my free time, I write blogs about technology, sustainability, and urban planning. Feel free to explore
-                my projects and get in touch!</p>
-        </div>
-    </section>
+        <!-- Right Section (About) -->
+        <section id="about" class="right-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hi, I'm Niraj Adhikari, a Civil Engineer with a passion for data analysis and smart mobility
+                    solutions. I enjoy solving complex problems and leveraging data to improve transportation systems.
+                </p>
+                <p>In my free time, I write blogs about technology, sustainability, and urban planning. Feel free to
+                    explore my projects and get in touch!</p>
+            </div>
+        </section>
+    </div>
 
+    <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
         <div class="project-grid">
             <div class="project-card">
                 <div class="project-content">
-                    <h3>LOS Analysis of Intersection</h3>
+                    <h3>LOS Analysis of Balkhu Staggered Intersection</h3>
                     <p>Data-driven study on Level of Service at traffic intersections.</p>
                     <div class="project-details">
-                        <p>This project involved analyzing traffic flow and congestion patterns at major intersections
-                            using Python and GIS tools.</p>
+                        <p>This project involved analyzing traffic flow and optimizing traffic signal at major
+                            intersection
+                            using Python and SIDRA Intersection</p>
+                        <a class="show-details">Show Details</a>
                     </div>
                 </div>
             </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Crash Analysis and Hot-spot Identification on Koteswor-Jadibuti Road Section </h3>
+                    <p>Conversion of written police reports into english for data analysis and identification of risk
+                        zones.</p>
+                    <div class="project-details">
+                        <p>Processed 1,200+ police reports and mapped crash frequency patterns using ArcGIS Pro to
+                            identify high-risk zones, facilitating evidence-based
+                            recommendations for road safety improvements.</p>
+                        <a class="show-details">Show Details</a>
+                    </div>
+                </div>
+            </div>
+
             <div class="project-card">
                 <div class="project-content">
                     <h3>Seatbelt Usage & Influence Study</h3>
@@ -59,22 +85,27 @@
                     <div class="project-details">
                         <p>Conducted a nationwide survey to understand seatbelt usage trends and their impact on road
                             safety.</p>
+                        <a class="show-details">Show Details</a>
                     </div>
                 </div>
             </div>
+
             <div class="project-card">
                 <div class="project-content">
-                    <h3>Smart Mobility & EV Adoption</h3>
-                    <p>Analysis of EV adoption in Nepal & its impact on transportation networks.</p>
+                    <h3>Feasibility of Metro in Kathmandu Valley</h3>
+                    <p>Conducted feasibility analysis for a 77.28 km metro system, synthesizing government reports,
+                        academic research, and transportation data.</p>
                     <div class="project-details">
-                        <p>Explored the growth of electric vehicles in Nepal and their potential to reduce carbon
-                            emissions.</p>
+                        <p>Assessed project cost estimates and funding models, including PPP frameworks and viability
+                            gap funding.</p>
+                        <a class="show-details">Show Details</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Blog Section -->
     <section id="blog">
         <h2>Blog</h2>
         <div class="blog-grid">
@@ -85,6 +116,7 @@
                     <div class="blog-details">
                         <p>This blog post delves into the role of technology in creating sustainable and efficient urban
                             environments.</p>
+                        <a class="show-details">Show Details</a>
                     </div>
                 </div>
             </div>
@@ -95,21 +127,24 @@
                     <div class="blog-details">
                         <p>This post explores the impact of data-driven approaches on modern civil engineering
                             practices.</p>
+                        <a class="show-details">Show Details</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
         <div class="contact-links">
-            <a href="mailto:075bce088.niraj@pcampus.edu.np">Email</a>
-            <a href="https://github.com/Nireey">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            <a href="mailto:075bce088.niraj@pcampus.edu.np"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://github.com/Nireey"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2023 Niraj Adhikari. All rights reserved.</p>
         <div class="footer-links">
@@ -121,7 +156,7 @@
         </div>
     </footer>
 
-    <script src="https://nireey.github.io\js\script.js"></script>
+    <script src="https://nireey.github.io/js/script.js"></script>
 </body>
 
 </html>
