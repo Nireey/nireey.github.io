@@ -49,24 +49,4 @@ document.addEventListener("DOMContentLoaded", () => {
             details.classList.toggle("visible");
         });
     });
-
-    // Dark mode toggle
-    const toggleButton = document.createElement("button");
-    toggleButton.textContent = "🌙";
-    toggleButton.style.position = "fixed";
-    toggleButton.style.bottom = "20px";
-    toggleButton.style.right = "20px";
-    toggleButton.style.background = "#2c3e50";
-    toggleButton.style.color = "white";
-    toggleButton.style.border = "none";
-    toggleButton.style.borderRadius = "50%";
-    toggleButton.style.width = "50px";
-    toggleButton.style.height = "50px";
-    toggleButton.style.cursor = "pointer";
-    toggleButton.style.zIndex = "1000";
-    document.body.appendChild(toggleButton);
-
-    toggleButton.addEventListener("click", () => {
-        document.body.classList.toggle("dark-mode");
-    });
 });
