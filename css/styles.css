@@ -21,14 +21,14 @@ a {
 }
 
 a:hover {
-    color: #1abc9c;
+    color: #34495e;
 }
 
 /* Navigation */
 nav {
     position: sticky;
     top: 0;
-    background-color: linear-gradient(90deg, #2c3e50, #34495e);
+    background-color: linear-gradient(135deg, #2c3e50, #34495e);
     backdrop-filter: blur(200px);
     padding: 1rem 2rem;
     z-index: 1000;
@@ -54,13 +54,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1abc9c;
+    color: #34495e;
 }
 
 /* Split Section Layout */
 .split-section {
     display: flex;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 
 .left-section {
@@ -78,7 +78,7 @@ nav ul li a:hover {
     padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 
 .profile-img {
@@ -90,14 +90,14 @@ nav ul li a:hover {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     margin-bottom: 0rem;
     text-align: center;
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 0rem;
     text-align: center;
@@ -111,7 +111,7 @@ nav ul li a:hover {
 
 /* Projects Section */
 #projects {
-    padding: 4rem 2rem;
+    padding: 0.5rem 2rem;
     background-color: white;
 }
 
@@ -140,7 +140,7 @@ nav ul li a:hover {
 
 /* Blog Section */
 #blog {
-    padding: 4rem 2rem;
+    padding: 0.5rem 2rem;
     background-color: #f5f5f5;
 }
 
@@ -199,7 +199,7 @@ nav ul li a:hover {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background: #1abc9c;
+    background: #34495e;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -208,7 +208,7 @@ nav ul li a:hover {
 }
 
 .details-close:hover {
-    background: #16a085;
+    background: #34495e;
 }
 
 /* Show Details Button */
@@ -216,7 +216,7 @@ nav ul li a:hover {
     display: inline-block;
     margin-top: 1rem;
     padding: 12px 25px;
-    background: linear-gradient(135deg, #1abc9c, #16a085);
+    background: linear-gradient(135deg, #6289af, #3e6185);
     color: white !important;
     border: none;
     border-radius: 25px;
@@ -259,7 +259,7 @@ nav ul li a:hover {
 @media (max-width: 480px) {
     .show-details {
         padding: 10px 20px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -296,7 +296,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #1abc9c;
+    color: #34495e;
 }
 
 /* Responsive Design */
