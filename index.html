@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niraj Adhikari - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://nireey.github.io/css/styles.css">
-    <!-- Add Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://nireey.github.io/css/styles.css">
 </head>
 
 <body>
+    <!-- Navigation -->
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -27,8 +26,7 @@
         <!-- Left Section (Home) -->
         <section id="home" class="left-section">
             <div class="home-content">
-                <img src="https://nireey.github.io/images/profile.jpg" alt="Niraj Adhikari" class="profile-img"
-                    width=300 height=300>
+                <img src="https://nireey.github.io/images/profile.jpg" alt="Niraj Adhikari" class="profile-img">
                 <h1 class="title">Niraj Adhikari</h1>
                 <p class="subtitle">Civil Engineer & Data Enthusiast</p>
             </div>
@@ -54,52 +52,41 @@
             <div class="project-card">
                 <div class="project-content">
                     <h3>LOS Analysis of Balkhu Staggered Intersection</h3>
-                    <p>Data-driven study on Level of Service at traffic intersections.</p>
-                    <div class="project-details">
-                        <p>This project involved analyzing traffic flow and optimizing traffic signal at major
-                            intersection
-                            using Python and SIDRA Intersection</p>
-                        <a class="show-details">Show Details</a>
-                    </div>
+                    <p>This project applied Python-based automation, SIDRA modeling, and GIS mapping to analyze and
+                        optimize the Balkhu Staggered Intersection, reducing delays by 22% and supporting data-driven
+                        traffic management strategies.</p>
+                    <button class="show-details" data-type="project" data-id="los-analysis">Show Details <i
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
-
             <div class="project-card">
                 <div class="project-content">
-                    <h3>Crash Analysis and Hot-spot Identification on Koteswor-Jadibuti Road Section </h3>
-                    <p>Conversion of written police reports into english for data analysis and identification of risk
-                        zones.</p>
-                    <div class="project-details">
-                        <p>Processed 1,200+ police reports and mapped crash frequency patterns using ArcGIS Pro to
-                            identify high-risk zones, facilitating evidence-based
-                            recommendations for road safety improvements.</p>
-                        <a class="show-details">Show Details</a>
-                    </div>
+                    <h3>Crash Analysis and Hot-spot Identification on Koteswor-Jadibuti Road Section</h3>
+                    <p>AThis project applied Python-based automation, GIS mapping, and crash data processing to analyze
+                        accident trends on the Koteswor-Jadibuti road section, enabling data-driven road safety
+                        improvements.</p>
+                    <button class="show-details" data-type="project" data-id="crash-analysis">Show Details<i
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
-
             <div class="project-card">
                 <div class="project-content">
-                    <h3>Seatbelt Usage & Influence Study</h3>
-                    <p>Survey on seatbelt adoption rates on Nepalese highways.</p>
-                    <div class="project-details">
-                        <p>Conducted a nationwide survey to understand seatbelt usage trends and their impact on road
-                            safety.</p>
-                        <a class="show-details">Show Details</a>
-                    </div>
+                    <h3>Detailed Engineering Survey, Design, and Cost Estimation of Chhaling Road</h3>
+                    <p>This project combined high-precision surveying, geometric design, 3D modeling, and operational
+                        analysis to develop a context-sensitive and cost-effective roadway design for Chhaling Road in
+                        compliance with AASHTO and HCM standards.</p>
+                    <button class="show-details" data-type="project" data-id="road-design">Show Details<i
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
-
             <div class="project-card">
                 <div class="project-content">
-                    <h3>Feasibility of Metro in Kathmandu Valley</h3>
-                    <p>Conducted feasibility analysis for a 77.28 km metro system, synthesizing government reports,
-                        academic research, and transportation data.</p>
-                    <div class="project-details">
-                        <p>Assessed project cost estimates and funding models, including PPP frameworks and viability
-                            gap funding.</p>
-                        <a class="show-details">Show Details</a>
-                    </div>
+                    <h3>Metro System Feasibility Study in Kathmandu Valley</h3>
+                    <p>This project analyzed the feasibility of a 77.28 km metro system in Kathmandu Valley, addressing
+                        cost, ridership, infrastructure challenges, and stakeholder coordination to propose a
+                        sustainable and phased development strategy.</p>
+                    <button class="show-details" data-type="project" data-id="metro-feasibility">Show Details<i
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
@@ -113,24 +100,32 @@
                 <div class="blog-content">
                     <h3>Smart Cities: The Future of Urban Living</h3>
                     <p>Exploring how technology is transforming urban infrastructure.</p>
-                    <div class="blog-details">
-                        <p>This blog post delves into the role of technology in creating sustainable and efficient urban
-                            environments.</p>
-                        <a class="show-details">Show Details</a>
-                    </div>
+                    <button class="show-details" data-type="blog" data-id="smart-cities">Show Details<i
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
             <div class="blog-card">
                 <div class="blog-content">
                     <h3>Data-Driven Decision Making in Civil Engineering</h3>
                     <p>How data analysis is revolutionizing the construction industry.</p>
-                    <div class="blog-details">
-                        <p>This post explores the impact of data-driven approaches on modern civil engineering
-                            practices.</p>
-                        <a class="show-details">Show Details</a>
-                    </div>
+                    <button class="show-details" data-type="blog" data-id="decision-making">Show Details<i
+                            class="fas fa-arrow-right"></button>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section id="project-details" class="details-section">
+        <div class="details-container">
+            <!-- Details will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- Blog Details Section -->
+    <section id="blog-details" class="details-section">
+        <div class="details-container">
+            <!-- Details will be dynamically inserted here -->
         </div>
     </section>
 
@@ -140,7 +135,7 @@
         <div class="contact-links">
             <a href="mailto:075bce088.niraj@pcampus.edu.np"><i class="fas fa-envelope"></i> Email</a>
             <a href="https://github.com/Nireey"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/niraj1999/"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
     </section>
 
@@ -149,7 +144,6 @@
         <p>&copy; 2023 Niraj Adhikari. All rights reserved.</p>
         <div class="footer-links">
             <a href="#home">Home</a> |
-            <a href="#about">About</a> |
             <a href="#projects">Projects</a> |
             <a href="#blog">Blog</a> |
             <a href="#contact">Contact</a>
